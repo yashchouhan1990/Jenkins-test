@@ -2,11 +2,14 @@ package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 
 public class Login_test {
-
-public static void main (String []args)
+	
+	
+@Test
+public static void setup()
 	{
 		 WebDriver driver = new ChromeDriver();   // launch browser
 		 driver.manage().window().maximize();
