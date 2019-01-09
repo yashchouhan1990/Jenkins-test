@@ -23,15 +23,6 @@ public static void setup()
 		 
 		 String title=driver.getTitle();
 		 System.out.println("title = "+title);
-		 
-		 	 
 		 driver.close();
-		 
-		 
-		 
 	}
-		
-		
-
-	
 }
